@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+
+    <title>Um hotel para Terabithia. </title>
+</head>
+<body>
+    <h1>Sistema do hotel </h1>
+
+    <div class="button-container">
+        <button id="verificarSenha">Inicio</button>
+        <button id="reserva">Reserve seu quarto</button>
+        <button id="cadastroFamilia">Calcular Hospedagem</button>
+        <button id="cadastroFamiliaOpções">cadastro e pesquisa</button>
+        <button id="calcularComida">Calcular Comida </button>
+        <button id="verificarDisponibilidadeRestaurante">disponibilidades de restaurante </button>
+        <button id="calcularCombustivel">Calcule o Posto mais barato</button>
+        <button id="manutencaoNoAr">Ar condicionado</button>
+      
+
+     
+    </div>
+
+    <div id="resultado"></div>
+
+    <script src="Script.js"></script>
+    <script>
+
+        document.getElementById("verificarSenha").addEventListener("click", inicio);
+        document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("reserva").addEventListener("click", fazerReserva);
+        document.getElementById("cadastroFamilia").addEventListener("click", pagamentoEspecial);
+        document.getElementById("cadastroFamiliaOpções").addEventListener("click", CadastroComOpções);
+        document.getElementById("calcularComida").addEventListener("click", calcularComida);
+        document.getElementById("verificarDisponibilidadeRestaurante").addEventListener("click", verificarDisponibilidadeRestaurante);
+        document.getElementById("calcularCombustivel").addEventListener("click", calcularCombustivel);
+        document.getElementById("manutencaoNoAr").addEventListener("click", manutencaoNoAr);
+
+       
+        
+});
+
+
+
+
+
+     
+    </script>
+</body>
+
+</html>
