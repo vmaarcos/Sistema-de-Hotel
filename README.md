@@ -1,2 +1,2 @@
 # Sistema-de-Hotel
-Um sistema de hotel COMPLETO feito em js (em breve mais atualizações)
+Começe pela pagina Primaria.html aguarde 5 segundos
